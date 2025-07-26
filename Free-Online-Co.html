@@ -41,12 +41,70 @@
   
   </span></strong><p></p><p style="background: 0px 50% rgb(255, 255, 255); border: 0px; color: #333333; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 22px; line-height: 1.6em; margin: 0px 0px 15px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;"><strong style="background: 0px 50%; border: 0px; font-size: 24px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span color="rgb(51, 51, 51) !important" style="background: 0px 50%; border: 0px; font-family: georgia; font-size: large; line-height: 1.6em; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">CPD Accreditation&nbsp;</span></strong></p><p style="background: 0px 50% rgb(255, 255, 255); border: 0px; color: #333333; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 22px; line-height: 1.6em; margin: 0px 0px 15px; outline: 0px; padding: 0px; text-align: center; vertical-align: baseline;"><strong style="background: 0px 50%; border: 0px; font-size: 24px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span color="rgb(51, 51, 51) !important" style="background: 0px 50%; border: 0px; font-family: georgia; font-size: large; line-height: 1.6em; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;">
   
-  <script async="" crossorigin="anonymous" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269884583846743"></script>
-<!--Vertical ad-->
-<ins class="adsbygoogle" data-ad-client="ca-pub-2269884583846743" data-ad-format="auto" data-ad-slot="2115767840" data-full-width-responsive="true" style="display: block;"></ins>
+ <div id="ad-rotation-container" style="min-height: 100px;"></div>
+
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
+  const adUnits = [
+    `
+    <!-- Square ads -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2269884583846743"
+         data-ad-slot="3828853509"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    `,
+    `
+    <!-- Horizontal ads -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-2269884583846743"
+         data-ad-slot="1481343022"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    `,
+    `
+    <!-- In-article ad -->
+    <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-layout="in-article"
+         data-ad-format="fluid"
+         data-ad-client="ca-pub-2269884583846743"
+         data-ad-slot="3309861448"></ins>
+    `,
+    `
+    <!-- Fluid ad with layout key -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-format="fluid"
+         data-ad-layout-key="-d6+5n-2s-nh+175"
+         data-ad-client="ca-pub-2269884583846743"
+         data-ad-slot="6630219424"></ins>
+    `
+  ];
+
+  let currentAdIndex = 0;
+  const container = document.getElementById("ad-rotation-container");
+
+  function loadAd(index) {
+    container.innerHTML = adUnits[index];
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }
+
+  // Load first ad
+  loadAd(currentAdIndex);
+
+  // Rotate every 20 seconds
+  setInterval(() => {
+    currentAdIndex = (currentAdIndex + 1) % adUnits.length;
+    loadAd(currentAdIndex);
+  }, 20000); // 20000ms = 20 seconds
 </script>
+
+<!-- Only one async script call is needed -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269884583846743"
+        crossorigin="anonymous"></script>
+    
   
   </span></strong></p><h3 style="background: 0px 0px rgb(255, 255, 255); border: 0px; box-sizing: border-box; color: #473f50; font-family: Barlow, sans-serif; margin: 0px; outline: 0px; padding: 0px; position: relative; text-align: center; vertical-align: baseline;"><strong style="background: 0px 50%; border: 0px; box-sizing: border-box; color: #333333; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 22px; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><b style="background: 0px 50%; border: 0px; box-sizing: border-box; font-size: xx-large; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><a href="https://www.paypalads.com/2025/06/free-caregiver-and-nursing-courses-for.html" rel="" style="background: 0px 50%; border: 0px; box-sizing: border-box; color: #2b64ff; margin: 0px; outline: 0px; padding: 0px; text-decoration-line: none; transition: color 0.3s; vertical-align: baseline;" target="_blank"><span style="background: 0px 50%; border: 0px; box-sizing: border-box; color: white; line-height: 1.6em; margin: 0px; outline: 0px; padding: 0px; vertical-align: baseline;"><span color="rgb(51, 51, 51) !important" style="background: 0px 50% rgb(0, 123, 255); border-radius: 5px; border: 0px; box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px; box-sizing: border-box; display: inline-block; line-height: 1.6em; margin: 0px; outline: 0px; padding: 15px 25px; transition-duration: 0.3s; transition-property: background-color; vertical-align: baseline;">Free Caregiver and Nursing Courses</span></span></a></b></strong></h3></div>
     
