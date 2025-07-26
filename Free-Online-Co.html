@@ -94,11 +94,11 @@
   // Load first ad
   loadAd(currentAdIndex);
 
-  // Rotate every 20 seconds
+  // Rotate every 35 seconds
   setInterval(() => {
     currentAdIndex = (currentAdIndex + 1) % adUnits.length;
     loadAd(currentAdIndex);
-  }, 20000); // 20000ms = 20 seconds
+  }, 35000); // 35000ms = 35 seconds
 </script>
 
 <!-- Only one async script call is needed -->
