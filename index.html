@@ -116,12 +116,13 @@ window.yaContextCb.push(() => {
 })
 </script>
 
-<!-- Google Ad Script -->
+ <!-- Google Ad Script -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269884583846743" 
      crossorigin="anonymous"></script>
 
-<!-- Left Sticky Side Rail Ad without Label -->
+<!-- Left Sticky Side Rail Ad with "AD" Label -->
 <div id="left-ad">
+  <div class="ad-label">.</div>
   <ins class="adsbygoogle"
        style="display:block; width: 160px; height: 600px;" 
        data-ad-format="autorelaxed"
@@ -129,8 +130,9 @@ window.yaContextCb.push(() => {
        data-ad-slot="9322391019"></ins>
 </div>
 
-<!-- Right Sticky Side Rail Ad without Label -->
+<!-- Right Sticky Side Rail Ad with "AD" Label -->
 <div id="right-ad">
+  <div class="ad-label">.</div>
   <ins class="adsbygoogle"
        style="display:block; width: 160px; height: 600px;" 
        data-ad-format="autorelaxed"
@@ -154,11 +156,26 @@ window.yaContextCb.push(() => {
   }
 
   #left-ad {
-    left: -195px; /* Shifted 1.5 steps to the left (195px) */
+    left: 0;
   }
 
   #right-ad {
-    right: -195px; /* Shifted 1.5 steps to the right (195px) */
+    right: 0;
+  }
+
+  /* Ad label styling */
+  .ad-label {
+    position: absolute;
+    top: 10px;  /* Adjust to move the label down or up */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 10000;
   }
 
   /* Optional: Adjust the ad's position for smaller screens */
@@ -168,7 +185,6 @@ window.yaContextCb.push(() => {
     }
   }
 </style>
-
  
 <body>
   <main>
