@@ -122,7 +122,7 @@ window.yaContextCb.push(() => {
 
 <!-- Left Sticky Side Rail Ad with "AD" Label -->
 <div id="left-ad">
-  <div class="ad-label">AD</div>
+  <div class="ad-label"></div>
   <ins class="adsbygoogle"
        style="display:block; width: 160px; height: 600px;" 
        data-ad-format="autorelaxed"
@@ -132,7 +132,7 @@ window.yaContextCb.push(() => {
 
 <!-- Right Sticky Side Rail Ad with "AD" Label -->
 <div id="right-ad">
-  <div class="ad-label">AD</div>
+  <div class="ad-label"></div>
   <ins class="adsbygoogle"
        style="display:block; width: 160px; height: 600px;" 
        data-ad-format="autorelaxed"
@@ -156,11 +156,11 @@ window.yaContextCb.push(() => {
   }
 
   #left-ad {
-    left: 0;
+    left: 260px; /* Shifted 2 steps to the right (260px) */
   }
 
   #right-ad {
-    right: 0;
+    right: 260px; /* Shifted 2 steps to the left (260px) */
   }
 
   /* Ad label styling */
@@ -185,6 +185,7 @@ window.yaContextCb.push(() => {
     }
   }
 </style>
+
  
 <body>
   <main>
