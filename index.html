@@ -17,6 +17,71 @@
 
   <!-- Robots -->
   <meta name="robots" content="index, follow" />
+<style>
+  body {
+    font-family: &#39;Open Sans&#39;, Arial, sans-serif;
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  h1, h2 {
+    color: #007acc;
+    text-align: center;
+  }
+
+  nav {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+  img {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+</style>
 
   <!-- Fonts and Styles -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -50,6 +115,81 @@ window.yaContextCb.push(() => {
     })
 })
 </script>
+
+<!-- Google Ad Script -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2269884583846743" 
+     crossorigin="anonymous"></script>
+
+<!-- Left Sticky Side Rail Ad with "Advertisement" Label -->
+<div id="left-ad">
+  <div class="ad-label">Advertisement</div>
+  <!-- Vertical Ad -->
+  <ins class="adsbygoogle"
+       style="display:block; width: 160px; height: 600px;" 
+       data-ad-client="ca-pub-2269884583846743"
+       data-ad-slot="2115767840"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+</div>
+
+<!-- Right Sticky Side Rail Ad with "Advertisement" Label -->
+<div id="right-ad">
+  <div class="ad-label">Advertisement</div>
+  <!-- Vertical Ad -->
+  <ins class="adsbygoogle"
+       style="display:block; width: 160px; height: 600px;" 
+       data-ad-client="ca-pub-2269884583846743"
+       data-ad-slot="2115767840"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+</div>
+
+<!-- Google Ads Initialize -->
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- Sticky Side Rail Ad CSS -->
+<style>
+  #left-ad, #right-ad {
+    position: fixed;
+    top: 0; /* Start from the very top of the page */
+    width: 160px;
+    height: 600px;
+    z-index: 9999;
+  }
+
+  #left-ad {
+    left: 280px; /* Shifted 3 steps to the left (390px from the right) */
+  }
+
+  #right-ad {
+    right: 60px; /* Shifted 6 steps to the left (60px) */
+  }
+
+  /* Ad label styling */
+  .ad-label {
+    position: absolute;
+    top: 10px;  /* Adjust to move the label down or up */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 10000;
+  }
+
+  /* Optional: Adjust the ad's position for smaller screens */
+  @media (max-width: 768px) {
+    #left-ad, #right-ad {
+      display: none;
+    }
+  }
+</style>
+
  
 <body>
   <main>
